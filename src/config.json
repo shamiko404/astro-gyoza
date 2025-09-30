@@ -9,19 +9,19 @@
     "appleTouchIcon": "/apple-touch-icon.png"
   },
   "author": {
-    "name": "lxchapu",
-    "twitterId": "@lxchapu",
-    "avatar": "https://s2.loli.net/2024/04/30/ozsnuS5Ihf3xMBG.webp"
+    "name": "overload",
+    "twitterId": "@",
+    "avatar": "/images/avatar.jpg"
   },
   "hero": {
-    "name": "Gyoza",
-    "bio": "A static blog template build with Astro and React.",
-    "description": "Clean, Cute, Fast.",
+    "name": "シャミ子",
+    "bio": "こっっ… これで勝ったと思うなよ―――!!",
+    "description": "もも, きさま.",
     "socials": [
       {
-        "name": "Github",
-        "icon": "icon-github",
-        "url": "https://github.com/lxchapu/astro-gyoza",
+        "name": "Telegram",
+        "icon": "icon-telegram",
+        "url": "https://t.me/daily_baka",
         "color": "rgb(24, 23, 23)"
       },
       {
@@ -33,11 +33,11 @@
       {
         "name": "Email",
         "icon": "icon-mail",
-        "url": "mailto:lxchapu@outlook.com",
+        "url": "shamiko@msn.com",
         "color": "rgb(212, 70, 56)"
       }
     ],
-    "yiyan": "当第一颗卫星飞向大气层外，我们便以为自己终有一日会征服宇宙。"
+    "yiyan": "こっっ… これで勝ったと思うなよ―――!!"
   },
   "color": {
     "accent": [
