@@ -2,8 +2,8 @@
   "site": {
     "url": "https://shamiko.icu",
     "title": "shamiko",
-    "description": "这是一个使用 Astro 和 React 开发的博客主题。",
-    "keywords": ",blog,Astro博客",
+    "description": "博客",
+    "keywords": "blog,Astro博客",
     "lang": "zh-CN",
     "favicon": "/favicon.ico",
     "appleTouchIcon": "/apple-touch-icon.png"
@@ -23,12 +23,6 @@
         "icon": "icon-telegram",
         "url": "https://t.me/daily_baka",
         "color": "rgb(24, 23, 23)"
-      },
-      {
-        "name": "X",
-        "icon": "icon-x",
-        "url": "https://twitter.com/lxchapu",
-        "color": "rgb(36, 46, 54)"
       },
       {
         "name": "Email",
