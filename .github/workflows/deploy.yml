@@ -1,0 +1,19 @@
+name: Build & Deploy
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: corepack enable && corepack prepare pnpm@latest --activate
+      - run: pnpm install
+      - run: pnpm build
+      - uses: burnett01/rsync-deployments@5.2
+        with:
+          switches: -avz --delete
+          path: dist/
+          remote_path: ${{ secrets.DEST }}
+          remote_host: ${{ secrets.HOST }}
+          remote_user: ${{ secrets.USER }}
+          remote_port: ${{ secrets.PORT }}
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
